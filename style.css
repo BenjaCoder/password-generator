@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+    background-color: #181818;
+}
+
+.outer-container {
+    background-color: #1F2937;
+    margin: 30px;
+    border-radius: 5px;
+}
+
+.heading {
+    color: white;
+    padding: 20px 50px;
+}
+
+.green-text {
+    color: #3ACF76;
+}
+
+hr {
+    margin: 25px 50px -30px;
+}
+
+button {
+    background-color: #3ACF76;
+    color: white;
+    font-family: inherit;
+    padding: 10px 16px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(102%);
+    box-shadow: 5px 5px 2px black;
+}
+
+button:active {
+    background-color: #1AAF56;
+    transform: scale(98%);
+}
+
+.password-container {
+    display: flex;
+    margin: 10px auto 200px;
+    width: inherit;
+    justify-content: space-around;
+}
+
+.password {
+    width: 45%;
+    height: 30px;
+    color: #3ACF76;
+    background-color: #2F3947;
+    border: none;
+    border-radius: 5px;
+    margin: 50px auto 50px;
+    text-align: center;
+    font-size: 22px;
+    line-height: 30px;
+}

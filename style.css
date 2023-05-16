@@ -15,6 +15,21 @@ body {
     padding: 20px 50px;
 }
 
+#action-container {
+    margin-left: 50px;
+}
+
+#pass-length-label {
+    color: white;
+    margin-left: 10px;
+}
+
+#pass-range-and-label {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
 .green-text {
     color: #3ACF76;
 }
@@ -31,7 +46,7 @@ button {
     border-radius: 5px;
     border: none;
     font-weight: bold;
-    margin-left: 50px;
+    margin-top: 30px;
     cursor: pointer;
 }
 

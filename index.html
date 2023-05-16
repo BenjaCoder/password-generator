@@ -17,8 +17,18 @@
             <h1>Generate a<br /><span class="green-text">random password</span></h1>
             <h3>Never use an insecure password again</h3>
         </div>
-        <div>
-            <button>Generate passwords</button>
+        <div id="action-container">
+            <div id="pass-range-and-label">
+                <input
+                    type="range"
+                    min="6"
+                    max="24"
+                    id="pass-length"
+                    name="pass-length"
+                    value="15">
+                <label for="pass-length" id="pass-length-label">Characters: 15</label><br />
+            </div>
+            <button id="generate-passwords-btn">Generate passwords</button>
         </div>
         <div>
             <hr>
